@@ -1,6 +1,6 @@
 {
   "name": "vue3-odometer-counter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vue.js(v3.2+) component wrap for Odometer.js",
   "keywords": [
     "odometer",
@@ -33,7 +33,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "publish": "npm publish --access public"
   },
   "dependencies": {
     "odometer-counter": "^0.0.2",
