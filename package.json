@@ -1,0 +1,53 @@
+{
+  "name": "vue3-odometer-counter",
+  "version": "0.0.1",
+  "description": "Vue.js(v3.2+) component wrap for Odometer.js",
+  "keywords": [
+    "odometer",
+    "odometer.js",
+    "library",
+    "vue",
+    "vue-odometer"
+  ],
+  "homepage": "https://github.com/java0088/vue3-odometer",
+  "bugs": {
+    "url": "https://github.com/java0088/vue3-odometer/issues"
+  },
+  "license": "MIT",
+  "author": "huangwantong <965002107@qq.com>",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vue3-odometer.umd.js",
+  "module": "./dist/vue3-odometer.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue3-odometer.es.js",
+      "require": "./dist/vue3-odometer.umd.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/java0088/vue3-odometer.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "odometer-counter": "^0.0.2",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.2",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue-tsc": "^0.34.7"
+  },
+  "peerDependencies": {
+    "odometer": "latest",
+    "vue": ">=3.2.0"
+  }
+}
