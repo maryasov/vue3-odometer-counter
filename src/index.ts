@@ -7,6 +7,6 @@ import Odometer from './odometer'
 
 export default Odometer
 
-// export {
-//   Odometer
-// }
+export {
+  Odometer
+}

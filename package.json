@@ -1,6 +1,6 @@
 {
   "name": "vue3-odometer-counter",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "Vue.js(v3.2+) component wrap for Odometer.js",
   "keywords": [
     "odometer",
@@ -9,32 +9,32 @@
     "vue",
     "vue-odometer"
   ],
-  "homepage": "https://github.com/java0088/vue3-odometer",
+  "homepage": "https://github.com/maryasov/vue3-odometer-counter",
   "bugs": {
-    "url": "https://github.com/java0088/vue3-odometer/issues"
+    "url": "https://github.com/maryasov/vue3-odometer-counter/issues"
   },
   "license": "MIT",
   "author": "huangwantong <965002107@qq.com>",
   "files": [
     "dist"
   ],
-  "main": "./dist/vue3-odometer.umd.js",
-  "module": "./dist/vue3-odometer.es.js",
+  "main": "./dist/vue3-odometer-counter.umd.js",
+  "module": "./dist/vue3-odometer-counter.es.js",
   "exports": {
     ".": {
-      "import": "./dist/vue3-odometer.es.js",
-      "require": "./dist/vue3-odometer.umd.js"
+      "import": "./dist/vue3-odometer-counter.es.js",
+      "require": "./dist/vue3-odometer-counter.umd.js"
     }
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/java0088/vue3-odometer.git"
+    "url": "https://github.com/maryasov/vue3-odometer-counter.git"
   },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "publish": "npm publish --access public"
+    "pub": "npm publish --access public"
   },
   "dependencies": {
     "odometer-counter": "^0.0.2",
@@ -48,7 +48,7 @@
     "vue-tsc": "^0.34.7"
   },
   "peerDependencies": {
-    "odometer": "latest",
+    "odometer-counter": "latest",
     "vue": ">=3.2.0"
   }
 }
